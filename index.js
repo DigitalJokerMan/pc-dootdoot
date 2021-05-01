@@ -28,4 +28,4 @@ class DootDootPlugin extends Plugin {
     }
 }
 
-module.exports = TestPlugin;
+module.exports = DootDootPlugin;
