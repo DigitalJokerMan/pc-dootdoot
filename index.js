@@ -5,7 +5,7 @@ const { getModule } = require("powercord/webpack");
 function playSound(url, volume) {
     const audio = new Audio();
     audio.src = url;
-    audio.volume = volume;
+    if (volume) audio.volume = volume;
     audio.play();
 }
 
