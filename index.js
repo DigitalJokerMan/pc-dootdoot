@@ -36,6 +36,9 @@ class DootDootPlugin extends Plugin {
             } else if (e[0] === "user_leave") {
                 playSound("https://raw.githubusercontent.com/DigitalJokerMan/pc-dootdoot/master/booey.ogg", e[1]);
                 return false;
+            } else if (e[0] === "disconnect") {
+                playSound("https://raw.githubusercontent.com/DigitalJokerMan/pc-dootdoot/master/booey2.ogg", e[1]);
+                return false;
             }
 
             return e;
