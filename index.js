@@ -30,6 +30,12 @@ class DootDootPlugin extends Plugin {
             } else if (e[0] === "deafen") {
                 playSound("https://raw.githubusercontent.com/DigitalJokerMan/pc-dootdoot/master/deafen2.ogg", e[1]);
                 return false;
+            } else if (e[0] === "user_join") {
+                playSound("https://raw.githubusercontent.com/DigitalJokerMan/pc-dootdoot/master/baba.ogg", e[1]);
+                return false;
+            } else if (e[0] === "user_leave") {
+                playSound("https://raw.githubusercontent.com/DigitalJokerMan/pc-dootdoot/master/booey.ogg", e[1]);
+                return false;
             }
 
             return e;
